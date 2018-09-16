@@ -55,7 +55,6 @@ app.get("/bad", (req, res) => {
     errorMessage: "Her fant vi ingenting"
   });
 });
-//test
 app.listen(port, () => {
   console.log("Server is up on " + port);
 });
